@@ -1,0 +1,23 @@
+{
+    "balance": 990.0,
+    "warehouse": {
+        "aaa": {
+            "price": 4.0,
+            "quantity": 3
+        }
+    },
+    "operations": [
+        [
+            "purchase",
+            "aaa",
+            4.0,
+            5
+        ],
+        [
+            "sale",
+            "aaa",
+            5.0,
+            2
+        ]
+    ]
+}

@@ -1,0 +1,44 @@
+{
+  "balance": 1000,
+  "warehouse": {
+    "apple": [
+      {
+        "price": 5
+      },
+      {
+        "quantity": 10
+      }
+    ]
+  },
+  "operations": [
+    {
+    "operatioN": "purchase",
+    "item": "apple",
+    "price": 5,
+    "quantity": 10
+    }
+  ]
+}
+
+
+
+file1:
+1000
+
+file2:
+apple, 5, 10
+apple, 5, 10
+apple, 5, 10
+apple, 5, 10
+apple, 5, 10
+apple, 5, 10
+apple, 5, 10
+
+
+file3:
+purchase, apple, 5, 10
+purchase, apple, 5, 10
+purchase, apple, 5, 10
+purchase, apple, 5, 10
+purchase, apple, 5, 10
+purchase, apple, 5, 10

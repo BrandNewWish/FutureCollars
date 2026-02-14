@@ -1,0 +1,3 @@
+type,product,quantity,price
+purchase,aaa,5.0,2.0
+sale,aaa,2.0,3.0
