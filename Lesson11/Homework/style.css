@@ -1,0 +1,27 @@
+
+body{
+    background-color: lightblue;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+  text-align: center;
+}
+
+table, th, td{
+    border: 5px solid black;
+    border-collapse: collapse;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+table{
+    width: 70%
+}
+
+form {
+    width: 70%
+}

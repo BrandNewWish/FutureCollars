@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
+</head>
+<body style="background-color: lightblue">
+    <h1>Accounting Web Application</h1>
+    <h2>My Company</h2>
+    <br>
+
+    <img src="assets/what%20accountant%20needs.png">
+    <br>
+    <br>
+    <center>
+    <table>
+        <tr>
+            <th>Balance</th>
+            <th>1000$</th>
+        </tr>
+    </table>
+    </center>
+    <br>
+    <br>
+    <center>
+    <table>
+        <tr>
+            <th>Stock Name</th>
+            <th>Stock Unit</th>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td>10 pieces</td>
+        </tr>
+        <tr>
+            <td>Milk</td>
+            <td>10 l</td>
+        </tr>
+        <tr>
+            <td>Cake</td>
+            <td>5 pieces</td>
+        </tr>
+    </table>
+    </center>
+    <br>
+    <br>
+
+    <form class="form-group" method="GET" action="address">
+
+        <div class="form-group">
+            <label class="form-label" for="operations">Operations</label>
+            <select id="operations" name="operations" class="form-select">
+                <option value="">Choose an option</option>
+                <option value="">Add</option>
+                <option value="">Subtract</option>
+            </select>
+        </div>
+        <br>
+        <div class="form-group">
+            <label class="form-label" for="amount">Amount:</label>
+            <input type="number" id="amount" name="amount" class="form-input" step="1" required>
+        </div>
+        <br>
+        <button type="submit">Apply</button>
+    </form>
+
+    <br>
+
+    <p>Purchase</p>
+    <br>
+
+    <form class="form-group" method="GET" action="address">
+        <label>
+        Product Name
+        <input type="text" name="productName" placeholder="Enter product name">
+        </label>
+
+        <label>
+        Unit Price
+        <input type="number" name="unitPrice" placeholder="Enter unit price">
+        </label>
+
+        <label>
+        Number of Pieces
+        <input type="number" name="quantity" placeholder="Enter quantity">
+        </label>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <br>
+
+    <p>Sale</p>
+
+    <form class="form-group" method="GET" action="address">
+        <label>
+            Product Name
+            <input type="text" name="productName" placeholder="Enter product name">
+        </label>
+
+        <label>
+            Unit Price
+            <input type="number" name="unitPrice" placeholder="Enter unit price">
+        </label>
+
+        <label>
+            Number of Pieces
+            <input type="number" name="quantity" placeholder="Enter quantity">
+        </label>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <br>
+
+    <p>History</p>
+    <center>
+    <table>
+        <tr>
+            <th>Actions Yesterday</th>
+            <th>Actions Today</th>
+        </tr>
+        <tr>
+            <td>Purchase Apple - 15</td>
+            <td>Sold Apple - 5</td>
+        </tr>
+        <tr>
+            <td>Purchase Milk - 20l</td>
+            <td>Sold Milk - 10l</td>
+        </tr>
+        <tr>
+            <td>Purchase Cake 2</td>
+            <td>Purchase Cake 3</td>
+        </tr>
+    </table>
+    </center>
+
+
+
+
+</body>
+</html>
